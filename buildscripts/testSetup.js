@@ -3,5 +3,5 @@
 // Register babel to transpile before out tests run.
 require('babel-register')();
 
-// Disable webpack feature that Mochae doesn't understand.
+// Disable webpack feature that Mocha doesn't understand.
 require.extensions['.css'] = function() {};

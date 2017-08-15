@@ -1,4 +1,4 @@
-import {expect} from 'chai';
+import {assert} from 'chai';
 import jsdom from 'jsdom';
 import fs from 'fs';
 
